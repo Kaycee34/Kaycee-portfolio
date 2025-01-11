@@ -28,32 +28,33 @@ const certs = [
 const projectData = [
   {
     Img: trendvault,
-    Title: "Aba Shirt E-commerce Store",
-    Description: "buy and sell",
+    Title: "TrendVault - Your Style Hub",
+    Description: "An innovative e-commerce platform for discovering and purchasing trendy fashion items. Built to provide a seamless shopping experience.",
     Link: 'https://github.com/Kaycee34/TrendVault',
     Id: 1,
   },
   {
     Img: skillempower,
-    Title: "Aba Shirt E-commerce Store",
-    Description: "buy and sell",
+    Title: "Skill Empower Learning Platform",
+    Description: "A robust platform to empower individuals with skills through online courses and resources. Perfect for self-improvement and career growth.",
     Link: 'https://aba-shirts.vercel.app/login',
-    Id: 1,
+    Id: 2,
   },
   {
     Img: abashirt,
     Title: "Aba Shirt E-commerce Store",
-    Description: "buy and sell",
+    Description: "An online store offering a wide variety of locally made Aba shirts. A gateway to buy and support local craftsmanship.",
     Link: 'https://skill-empower.vercel.app/',
-    Id: 1,
+    Id: 3,
   },
   {
     Img: moviesapp,
-    Title: "Aba Shirt E-commerce Store",
-    Description: "buy and sell",
-    Id: 1,
+    Title: "MoviesApp - Film Discovery Platform",
+    Description: "A dynamic web app for exploring, rating, and discovering movies. Stay updated with trending titles and your favorite genres.",
+    Id: 4,
   },
 ];
+
 
 // Separate ShowMore/ShowLess button component
 const ToggleButton = ({ onClick, isShowingMore }) => (

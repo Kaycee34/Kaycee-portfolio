@@ -102,9 +102,9 @@ const AboutPage = () => {
       (today < new Date(today.getFullYear(), startDate.getMonth(), startDate.getDate()) ? 1 : 0);
 
     return {
-      totalProjects: storedProjects.length,
-      totalCertificates: storedCertificates.length,
-      YearExperience: experience
+      totalProjects: 10,
+      totalCertificates: 2,
+      YearExperience: 1
     };
   }, []);
 
