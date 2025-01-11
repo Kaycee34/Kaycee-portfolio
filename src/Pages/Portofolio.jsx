@@ -30,27 +30,28 @@ const projectData = [
     Img: trendvault,
     Title: "TrendVault - Your Style Hub",
     Description: "An innovative e-commerce platform for discovering and purchasing trendy fashion items. Built to provide a seamless shopping experience.",
-    Link: 'https://github.com/Kaycee34/TrendVault',
+    // Link: 'https://github.com/Kaycee34/TrendVault',
     Id: 1,
   },
   {
     Img: skillempower,
     Title: "Skill Empower Learning Platform",
     Description: "A robust platform to empower individuals with skills through online courses and resources. Perfect for self-improvement and career growth.",
-    Link: 'https://aba-shirts.vercel.app/login',
+    Link: 'https://skill-empower.vercel.app/',
     Id: 2,
   },
   {
     Img: abashirt,
     Title: "Aba Shirt E-commerce Store",
     Description: "An online store offering a wide variety of locally made Aba shirts. A gateway to buy and support local craftsmanship.",
-    Link: 'https://skill-empower.vercel.app/',
+    Link: 'https://aba-shirts.vercel.app/login',
     Id: 3,
   },
   {
     Img: moviesapp,
     Title: "MoviesApp - Film Discovery Platform",
     Description: "A dynamic web app for exploring, rating, and discovering movies. Stay updated with trending titles and your favorite genres.",
+    Link: "https://movie-card-app-rho.vercel.app"
     Id: 4,
   },
 ];
